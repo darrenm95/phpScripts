@@ -16,3 +16,5 @@ $notEscapedCharacters = 'Here\'s some characters that cannot be escaped when in 
 echo $correctString;
 echo $backslashString;
 echo $notEscapedCharacters;
+
+// What is wrong with this statement: $heading ='Date\tName\tPayment'; and explain characters that can be used with this syntax?
