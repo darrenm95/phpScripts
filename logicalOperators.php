@@ -21,3 +21,15 @@ if ( $num1 % 2 == 0 xor $num2 % 2 == 0) echo "One number is even and one number 
 
 echo '$num1 = ' . $num1 . "\n";
 echo '$num2 = ' . $num2 . "\n";
+
+/* The difference between '&&' and 'and' is that 'and' has a lower precedence than '&&'. This means that the '&&'
+operation will be processed first.
+
+For example, the command:
+a && b and c,
+
+will be processed:
+(a && b) and c.
+
+The same is true for '||' and 'or', where 'or' is a lower precedence operator. This is analogous to operator precedence
+in 'BODMAS' where addition is completed before subtraction and multiplication before addition and so on and so on.
